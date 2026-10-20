@@ -1,0 +1,6 @@
+# Runtime ranges; exact installed versions are recorded in requirements-lock.txt.
+torch>=2.6,<3
+transformers>=5.0,<6
+peft==0.19.1
+safetensors>=0.4
+psutil>=5.9

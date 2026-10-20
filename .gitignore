@@ -1,0 +1,37 @@
+# Runtime configuration; publish templates only.
+/settings.json
+/inference_contract.json
+.env
+.env.*
+!.env.example
+
+# Models, local downloads, imported datasets and generated reports.
+/models/
+/reports/
+/inbox/
+/samples/local/
+/outputs/
+*.log
+
+# Local research material and machine-specific records.
+/requirements-source.pdf
+/DEPLOYMENT_REPORT.md
+/INTEGRATION_NOTES.md
+
+# Python, virtual environments, build/editor caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

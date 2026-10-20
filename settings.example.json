@@ -1,0 +1,7 @@
+{
+  "adapter": "models/qwen-adapter",
+  "base_model": "models/base",
+  "contract": "inference_contract.json",
+  "device": "cpu",
+  "quantization": "none"
+}
